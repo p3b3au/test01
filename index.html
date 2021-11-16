@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #filariane {
+            display: flex;
+            justify-content: left;
+            list-style-type: none;
+        }
+
+        #bandeau {
+            background-image: url(./img/fond1intro.jpg);
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            text-align: center;
+            margin: 2px 10px;
+        }
+
+        aside {
+            width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            color: #29627e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--fil ariane-->
+        <div id="filariane">
+            <i class="fas fa-home"></i> Liste des offres >> détail d'une offre
+        </div>
+        <!--bandeau avec photo-->
+        <div id="bandeau">
+            <h1 text-align="center">Recrutement</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed modi adipisci deleniti quisquam
+                temporibus culpa nam impedit minima sit magnam consectetur sequi dolor perferendis fuga dolorum, itaque
+                ipsum iure?</p>
+
+        </div>
+    </header>
+    <div>
+        <!--titre-->
+        <h2>Service civil</h2>
+    </div>
+    <section>
+        <!-- double colonne liens à droite-->
+        <main>
+            <div>
+                ecrou
+            </div>
+        </main>
+        <aside>
+            <div>
+                facebook
+            </div>
+        </aside>
+    </section>
+    <section>
+        <!-- formulaire-->
+        <div>
+            <form action="">
+                <div>
+                    <h3>Je postule</h3>
+                </div>
+                <div>
+                    <div>
+                        <label for="name">Nom</label>
+                    </div>
+                    <input type="text" name="name" id="">
+                </div>
+        </div>
+        <div>
+            <div>
+                <label for="firstname">Prénom</label>
+            </div>
+            <input type="text" name="firstname" id="">
+        </div>
+        <div>
+            <div>
+                <label for="gender">Civilité</label>
+            </div>
+            <input type="text" name="gender" id="">
+        </div>
+        <div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <input type="email" name="email" id="">
+        </div>
+        </form>
+
+        </div>
+
+
+        <!--fichiers à joindre-->
+        <form method="post" enctype="multipart/form-data">
+            <div>
+                <div><label for="cv">CV (*)</label></div>
+                <div><input type="file" id="cv" name="cv" accept=".doc, .docx, .pdf"></div>
+            </div>
+            <div>
+
+            </div>
+        </form>
+
+        <!-- case à cocher / capcha / envoyer-->
+
+        <div><button type="submit">Envoyer</button></div>
+    </section>
+
+
+</body>
+
+</html>
