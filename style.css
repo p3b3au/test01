@@ -1,4 +1,6 @@
 
+        
+        
         #filariane {
             display: flex;
             justify-content: left;
@@ -20,9 +22,10 @@
             float: right;
             margin-bottom: -1000px; 
             padding-bottom: 1000px;
-            text-align: center;  
-            
+            text-align: match-parent;
+                  
         }
+
         #left {
             width: 60%;
             padding-right: .5rem;
@@ -34,18 +37,46 @@
 
         main {
             overflow: hidden;
+            
         }
 
 
         h2 {
             text-transform: capitalize;
-            color: coral ;
+            color: #F0B710
             font-weight: normal;
-            
         }
+
+        h3{
+            color: #F0B710
+        }
+
         i{
             color: grey;
             padding-right: 10px;
         }
+
+        .button {
+            background-color: grey;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+          }
+
+          #lien{
+            color: white;
+            padding: 2px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+           }
+           #lien>i{
+            padding-right: 0px;
+           }
 
 
