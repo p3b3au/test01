@@ -88,8 +88,10 @@
             <div>
                 <h3>Partager</h3>
             </div>
-            <div><button id="lien" style="background-color: #0976B4"><a href="http://www.linkedin.com"></a>Linkedin <i class="fab fa-linkedin-in"></i></button>
-                <button id="lien" style="background-color: #375998"><a href="http://www.facebook.com"></a>Facebook <i class="fab fa-facebook-f"></i></button>
+            <div><button id="lien" style="background-color: #0976B4"><a href="http://www.linkedin.com"></a>Linkedin <i
+                        class="fab fa-linkedin-in"></i></button>
+                <button id="lien" style="background-color: #375998"><a href="http://www.facebook.com"></a>Facebook <i
+                        class="fab fa-facebook-f"></i></button>
             </div>
             <div>
                 <h3>Postuler</h3>
@@ -108,73 +110,74 @@
                     <h3>Je postule</h3>
                 </div>
                 <hr>
-                <div>(*) Champs Obligatoires</div>
-                <div style="max-width:400px margin:auto">
-                    <div class="input-icons"><i class="fa fa-user icon"></i>
-                        <input class="input-field" type="text"></div>
-                <div>
-                    <div><label for="name">Nom</label></div>
-                    <input type="text" name="name" id="name" value="fa fa-user">
+                <div class="padding-bottom:50px">(*) Champs Obligatoires</div>
+
+
+                <div class="div-form">
+                    <div class="champs"><label for="name">Nom *</label></div>
+                    <div class="relatif">
+                    <input class="input-field" type="text" name="name" id="name">
+                    <i class="fa fa-user icon"></i>
                     </div>
                 </div>
-                <div>
-                    <div><label for="firstname">Prénom</label></div>
-                    <input type="text" name="firstname" id="">
-                </div>
-                <div>
-                    <div><label for="gender">Civilité</label></div>
-                    <input type="text" name="gender" id="">
-                </div>
-                <div>
-                    <div><label for="email">Email</label></div>
-                    <input type="email" name="email" id="">
-                </div>
-<!--essai-->
-<div style="max-width:400px;margin:auto">
-    <div class="input-icons"><i class="fa fa-user icon"></i>
-        <input class="input-field" type="text"></div>
 
-        <i class="fa fa-instagram icon"></i>
-        <input class="input-field" type="text">
-        <i class="fa fa-envelope icon"></i>
-        <input class="input-field" type="text">
-        <i class="fa fa-youtube icon"></i>
-        <input class="input-field" type="text">
-        <i class="fa fa-facebook icon"></i>
-        <input class="input-field" type="text">
-    </div>
-</div>
+                <div class="div-form">
+                    <div class="champs"><label for="firstname">Prénom *</label></div>
+                    <div class="relatif">
+                    <input class="input-field" type="text" name="firstname" id="firstname">
+                    <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
 
-<!--fin-->
+                <div class="div-form">
+                    <div class="champs"><label for="gender">Civilité *</label></div>
+                    <div class="relatif"><select class="select-input">
+                            <option value="Value1"></option>
+                            <option value="Value2">Madame</option>
+                            <option value="Value3">Monsieur</option>
+                        </select>
+                    <i class="fa fa-venus-mars icon"></i>
+                    </div>
+                </div>
+
+                <div class="div-form">
+                    <div class="champs"><label for="gender">Adresse mail *</label></div>
+                    <div class="relatif">
+                        
+                    <input class="input-field" type="text" name="email" id="email">
+                    <i class="fa fa-envelope icon"></i>
+                    </div>
+                </div>
             </form>
         </div>
 
 
         <!--fichiers à joindre-->
-        <div>taille maxi fichier 2 Mo et fichier acceptés .doc, .docx, .pdf</div>
-        <form method="post" enctype="multipart/form-data">
-            <div>
-                <div><label for="cv">CV (*)</label></div>
+        <div><h3>Taille maxi fichier 2 Mo et fichier acceptés .doc, .docx, .pdf</h3></div>
+        
+        <form method="post" enctype="multipart/form-data" class="envoi">
+            <div class="champs">
+                <div class="champs"><label for="cv">CV *</label></div>
                 <input type="file" id="cv" name="cv" accept=".doc, .docx, .pdf">
             </div>
-            <div>
-                <div><label for="lm">Lettre de motivation (*)</label></div>
+            <div class="champs">
+                <div class="champs"><label for="lm">Lettre de motivation (*)</label></div>
                 <input type="file" id="lm" name="lm" accept=".doc, .docx, .pdf">
             </div>
-            <div>
-                <div><label for="doc1">Document 1</label></div>
+            <div class="champs">
+                <div class="champs"><label for="doc1">Document 1</label></div>
                 <input type="file" id="doc1" name="doc1" accept=".doc, .docx, .pdf">
             </div>
-            <div>
-                <div><label for="doc2">Document 2</label></div>
+            <div class="champs">
+                <div class="champs"><label for="doc2">Document 2</label></div>
                 <input type="file" id="doc2" name="doc2" accept=".doc, .docx, .pdf">
             </div>
-            <div>
-                <div><label for="doc3">Document 3</label></div>
+            <div class="champs">
+                <div class="champs"><label for="doc3">Document 3</label></div>
                 <input type="file" id="doc3" name="doc3" accept=".doc, .docx, .pdf">
             </div>
         </form>
-        <div>
+        <div><br>
             <input type="checkbox" id="rgpd" name="" checked>
             <label for="rgpd">En cochant cette case, vous acceptez que les données à caractère
                 personnel recueillies dans le présent formulaire fassent l'objet d'un
@@ -184,7 +187,7 @@
                 suppression des présentes données, dans certaines circonstances. Pour
                 toute demande au sujet de vos données personnelles et leur utilisation,
                 vous pouvez vous adresser au service Recrutement de l'Hopital du Jura.</label>
-        </div>
+        </div><br>
         <div>
             <div class="g-recaptcha" data-sitekey="6LcmFzodAAAAAD9E8lrKMnBziEbsYgzYa0mCMxdl"></div>
             <!--js-->

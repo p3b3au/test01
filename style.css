@@ -111,33 +111,57 @@
                padding-top: 12px;
                padding-bottom: 12px;
            }
-
-           form>div>div{
-            padding-top: 12px;
-            padding-bottom: 12px;
+           section{
+            margin-left: 10%;
+            margin-right: 10%;
            }
 
-           form>input {
-            width: 500px;
-          }
+                  
 
         .input-icons i {
             position: absolute;
         }
           
         .input-icons {
-            width: 100%;
-            margin-bottom: 10px;
+           position: absolute;top: 9px;left: 385px;
             
         }
           
         .icon {
-            padding: 10px;
-            min-width: 40px;
+            position: absolute;top: 9px;left: 400px;
         }
-          
+
+        .div-form{
+            margin-bottom: 10px; 
+        }
+        
         .input-field {
-            width: 100%;
+            width:412px;
             padding: 10px;
             text-align: left;
+            position: relative;
         }
+
+        .select-input{
+            margin-top: 2px;
+            width: 435px;
+            height: 40px;
+        
+        }
+
+        .relatif{
+            position: relative;
+        }
+
+        
+       form>div{
+           padding-top: 3px;
+           padding-bottom: 3px;
+       }
+
+       .champs{
+           padding-bottom: 5px;
+
+       }
+     
+      
