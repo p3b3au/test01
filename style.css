@@ -1,11 +1,11 @@
 
         body{
-            max-width: 1280px;
+            margin: 0px;
             
         }
         
         #filariane {
-            max-width: 1280px;
+            padding-top: 15px;
             width: 100%;
             background-color: white;
             color: black;
@@ -16,28 +16,28 @@
             right: 0px;
             top: 36px;
             height: 36px;
-            margin: 18px;
+            padding-left: 18px;
         }
 
         #bandeau{
-            max-width: 640px;
+            
             width: 50%;
             margin-left: 25%;
             margin-right: 25%;
+            
             position: absolute;
             align-items: center;
             top: 150px;
         }
 
         header {
-            max-width: 1280px;
-            width: 100%;
-            background-image: url(./img/fond1intro.jpg); color:white;
-            display: flex;
-            align-items: middle;
+           background-image: url(./img/fond1intro.jpg); color:white;
+            background-repeat: no-repeat;
+            background-size: 100%;
+                 
             text-align: center;     
             height: 500px;
-            margin: 10px;
+            margin: 0px;
         }
 
         #right {
@@ -64,7 +64,7 @@
             margin-left: 10%;
             margin-right: 10%;
             display: flex;
-            align-items: flex-start;
+            
             
         }
 
