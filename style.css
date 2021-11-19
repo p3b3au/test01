@@ -161,7 +161,11 @@
 
        .champs{
            padding-bottom: 5px;
-
        }
      
-      
+       #cache {
+        display: none;
+     }
+     #cache:target {
+        display: block;
+     }
